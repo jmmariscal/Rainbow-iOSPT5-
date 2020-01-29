@@ -9,17 +9,15 @@
 /* Begin PBXBuildFile section */
 		AF4FF4E623E1286700A45442 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4FF4E523E1286700A45442 /* AppDelegate.swift */; };
 		AF4FF4E823E1286700A45442 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4FF4E723E1286700A45442 /* SceneDelegate.swift */; };
-		AF4FF4EA23E1286700A45442 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4FF4E923E1286700A45442 /* ViewController.swift */; };
 		AF4FF4ED23E1286800A45442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF4FF4EB23E1286800A45442 /* Main.storyboard */; };
 		AF4FF4EF23E1286E00A45442 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AF4FF4EE23E1286E00A45442 /* Assets.xcassets */; };
 		AF4FF4F223E1286E00A45442 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF4FF4F023E1286E00A45442 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AF4FF4E223E1286700A45442 /* Rainbow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rainbow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF4FF4E223E1286700A45442 /* Rainbow (iOS PT5).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rainbow (iOS PT5).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF4FF4E523E1286700A45442 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AF4FF4E723E1286700A45442 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AF4FF4E923E1286700A45442 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AF4FF4EC23E1286800A45442 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AF4FF4EE23E1286E00A45442 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AF4FF4F123E1286E00A45442 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -48,7 +46,7 @@
 		AF4FF4E323E1286700A45442 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AF4FF4E223E1286700A45442 /* Rainbow.app */,
+				AF4FF4E223E1286700A45442 /* Rainbow (iOS PT5).app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,15 +54,46 @@
 		AF4FF4E423E1286700A45442 /* Rainbow */ = {
 			isa = PBXGroup;
 			children = (
-				AF4FF4E523E1286700A45442 /* AppDelegate.swift */,
-				AF4FF4E723E1286700A45442 /* SceneDelegate.swift */,
-				AF4FF4E923E1286700A45442 /* ViewController.swift */,
-				AF4FF4EB23E1286800A45442 /* Main.storyboard */,
-				AF4FF4EE23E1286E00A45442 /* Assets.xcassets */,
-				AF4FF4F023E1286E00A45442 /* LaunchScreen.storyboard */,
+				AF4FF4FC23E12D1100A45442 /* Model */,
+				AF4FF4FB23E12CC500A45442 /* Views */,
+				AF4FF4FA23E12CAC00A45442 /* View Controllers */,
+				AF4FF4F923E12C0900A45442 /* Resources */,
 				AF4FF4F323E1286E00A45442 /* Info.plist */,
 			);
 			path = Rainbow;
+			sourceTree = "<group>";
+		};
+		AF4FF4F923E12C0900A45442 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AF4FF4E523E1286700A45442 /* AppDelegate.swift */,
+				AF4FF4E723E1286700A45442 /* SceneDelegate.swift */,
+				AF4FF4EE23E1286E00A45442 /* Assets.xcassets */,
+				AF4FF4F023E1286E00A45442 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AF4FF4FA23E12CAC00A45442 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		AF4FF4FB23E12CC500A45442 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AF4FF4EB23E1286800A45442 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AF4FF4FC23E12D1100A45442 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,7 +113,7 @@
 			);
 			name = Rainbow;
 			productName = Rainbow;
-			productReference = AF4FF4E223E1286700A45442 /* Rainbow.app */;
+			productReference = AF4FF4E223E1286700A45442 /* Rainbow (iOS PT5).app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -138,7 +167,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AF4FF4EA23E1286700A45442 /* ViewController.swift in Sources */,
 				AF4FF4E623E1286700A45442 /* AppDelegate.swift in Sources */,
 				AF4FF4E823E1286700A45442 /* SceneDelegate.swift in Sources */,
 			);
@@ -292,7 +320,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Mariscal-Development.Rainbow";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Rainbow (iOS PT5)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -310,7 +338,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "Mariscal-Development.Rainbow";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Rainbow (iOS PT5)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
